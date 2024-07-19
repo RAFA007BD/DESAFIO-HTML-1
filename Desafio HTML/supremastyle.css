@@ -1,0 +1,260 @@
+/*Color Theme Swatches in Hex 
+.Closeup-of-big-gold-nugget-1-hex { color: #F2D22E; }
+.Closeup-of-big-gold-nugget-2-hex { color: #F2A413; }
+.Closeup-of-big-gold-nugget-3-hex { color: #A65D03; }
+.Closeup-of-big-gold-nugget-4-hex { color: #733410; }
+.Closeup-of-big-gold-nugget-5-hex { color: #0D0D0D; }*/
+
+html{
+      box-sizing: border-box;
+
+}
+/*CABEÇALHO*/
+.menu{
+    position: absolute; 
+    top: 21%;
+    margin-left: 10%;
+        
+}
+
+.menu li{
+   list-style-type: none;
+   display: inline;
+   padding: 100px;  
+    
+}
+.banner{
+   background-image: url(imagens/banner\ menor.jpg);
+   background-repeat:no-repeat; 
+   height: 300px; 
+   background-size: 1370px 300px;
+   position: relative; 
+      
+}         
+
+header a{
+color: #fff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+}
+
+header a:hover{
+   color: goldenrod;
+   transition: background .6s;
+   text-decoration: none;
+}
+
+/*Destaques Suprema*/
+.h1{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: black;
+   color:goldenrod;
+   text-align: center;
+   font-size: 30px;
+   border-top: 8px solid white;
+     
+}
+/*bootstrap*/
+.img1{
+   height: 300px;
+   width: 700px;
+   margin-left: 22%;
+   
+}
+.carousel-inner{
+   height: 320px;   
+   background-color: rgb(0, 0, 0);
+      
+}
+.h2{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   text-align: right;
+}
+/*Seção de SOBRE NÓS*/
+.h11{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: black;
+   color: goldenrod;
+   text-align: right;
+   font-size: 30px;
+   border-top: 8px solid white;
+   border-bottom: 8px solid white;
+   padding-right: 10%;
+}
+.concess{
+   height: 280px;
+   width: 670px;
+   margin-bottom: 1%;
+   padding-left: 2%;
+   
+     
+}
+ .descrition{
+   position: absolute;
+   top: 725px;
+   font-size: 19px;
+   padding-right: 5%;
+   padding-left: 5%;
+   border-left: 15px solid black;
+   left: 55%;
+   text-align: justify;
+ }
+
+ /*Seção de Estoques*/
+ .h12{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: black;
+   color: goldenrod;
+   text-align: center;
+   font-size: 30px;
+   border-top: 0 solid white;
+   border-bottom: 8px solid white;
+ }
+ 
+ .cardcar1{
+   display: flex;
+   border: 2px solid goldenrod;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding-top: 1%;
+   transition: all 1s linear;
+         
+ }
+ .cardcar2{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   border-top: solid 2px goldenrod;
+   margin-top: 2%;
+   
+ }
+ .cardcar3{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   
+ }
+  .span{
+      color: red;
+      text-align: center;
+      font-style: bold;
+      background-color: black;
+ }
+ .span a{
+   color: red;
+ }
+ .span a:hover{
+   color:goldenrod;
+   text-decoration: none;
+ }
+ .img{
+   transition: all 0.5s linear;
+ }
+ 
+ .cardcar1 img:hover{
+   scale: 1.03;
+   border-radius: 8px;
+   transition: background 0.3s ease, color 0.3s ease;
+   border: 3px solid #d3d3d3;
+ }
+ .cardcar2 img:hover{
+  scale: 1.03;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+  border: 3px solid #d3d3d3;
+ }
+ .cardcar3 img:hover{
+  scale: 1.03;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+  border: 3px solid #d3d3d3;
+ }
+
+ /*Rodapé*/
+ .h13{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: black;
+  color: goldenrod;
+  text-align: left;
+  font-size: 30px;
+  border-top: 0 solid white;
+  border-bottom: 8px solid white;
+  margin-top: 1%;
+ }
+
+ .contact{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: goldenrod;
+  text-align: center;
+  font-size: 30px;
+  background-image: url(imagens/rodape\ 4.png);
+  background-repeat:no-repeat; 
+  height: 350px; 
+  background-size: 1370px 350px;  
+  padding-top: 3%;
+  
+ }
+ .social{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  
+ }
+
+ .icons{
+  height: 70px; 
+ }
+ .icons:hover{
+  scale: 1.03;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+  border: 3px solid transparent;
+ }
+ .home a{
+  font-size: large;  
+  text-align: right;
+  margin-top: 30%;
+  padding-left: 80%;
+  color: goldenrod;
+ }
+
+ .copyright{
+  font-size: small;  
+  text-align: center;
+  padding-top: 4%;
+ }
+
+ /* Responsividade */
+@media (max-width: 768px) {
+  .navegacao ul {
+      flex-direction: column;
+  }
+
+  .navegacao li {
+      margin: 5px 0;
+  }
+
+  section {
+      margin: 60px 10px 20px 10px; /* Ajuste para a barra de navegação fixa */
+  }
+  .descrition{
+    flex-direction: column;
+    padding-top: 83%;
+    text-align: justify;
+    padding-left: 1%;
+    left: 2%;
+    border-left: none;
+    padding-bottom: 10%;
+  }
+  
+  .h12{
+    margin-top: 70%;
+  }
+   
+}
